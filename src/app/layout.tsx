@@ -7,8 +7,8 @@ import Footer from './Components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Modern Developer Portfolio',
-  description: 'Built with Next.js and Tailwind CSS',
+  title: 'Badmus Eniola | Portfolio',
+  description: 'A showcase of my work as a Full Stack Developer',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

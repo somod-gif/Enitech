@@ -58,13 +58,13 @@ const Homepage = () => {
       skills: ['MERN Stack', 'PHP/MYSQL', 'Next.js', 'Database Design', 'API Development'],
       color: 'from-purple-400 to-pink-500'
     },
-    {
-      icon: Smartphone,
-      title: 'Mobile App Development',
-      description: 'Cross-platform mobile applications with React Native and backend integration',
-      skills: ['React Native', 'Mobile Backend', 'API Integration', 'Firebase', 'Supabase'],
-      color: 'from-orange-400 to-red-500'
-    }
+    // {
+    //   icon: Smartphone,
+    //   title: 'Mobile App Development',
+    //   description: 'Cross-platform mobile applications with React Native and backend integration',
+    //   skills: ['React Native', 'Mobile Backend', 'API Integration', 'Firebase', 'Supabase'],
+    //   color: 'from-orange-400 to-red-500'
+    // }
   ];
 
   useEffect(() => {

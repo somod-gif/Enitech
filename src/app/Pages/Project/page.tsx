@@ -15,61 +15,61 @@ type Project = {
 
 const ProjectsPage = () => {
   const projects: Project[] = [
-    {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-featured online store with cart, checkout, and admin dashboard built with Next.js and Stripe integration.",
-      tags: ["Next.js", "TypeScript", "Tailwind", "Stripe"],
-      githubUrl: "#",
-      liveUrl: "#",
-      image: "/ecommerce.jpg",
-      featured: true
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      description: "Productivity application with drag-and-drop interface, real-time updates, and team collaboration features.",
-      tags: ["React", "Firebase", "Node.js", "MongoDB"],
-      githubUrl: "#",
-      liveUrl: "#",
-      image: "/taskapp.jpg"
-    },
-    {
-      id: 3,
-      title: "AI Content Generator",
-      description: "Web application leveraging OpenAI API to generate marketing content and blog posts.",
-      tags: ["Next.js", "OpenAI API", "Tailwind"],
-      githubUrl: "#",
-      liveUrl: "#",
-      image: "/aigenerator.jpg",
-      featured: true
-    },
-    {
-      id: 4,
-      title: "Health & Fitness Tracker",
-      description: "Mobile-first application for tracking workouts, nutrition, and health metrics with data visualization.",
-      tags: ["React Native", "GraphQL", "Node.js"],
-      githubUrl: "#",
-      image: "/fitness.jpg"
-    },
-    {
-      id: 5,
-      title: "Portfolio Website",
-      description: "Custom designed portfolio website with animations and dark/light mode (this website).",
-      tags: ["Next.js", "Framer Motion", "Tailwind"],
-      githubUrl: "#",
-      liveUrl: "#",
-      image: "/portfolio.jpg"
-    },
-    {
-      id: 6,
-      title: "Social Media Dashboard",
-      description: "Analytics dashboard for social media managers with data visualization and reporting.",
-      tags: ["React", "D3.js", "Express"],
-      githubUrl: "#",
-      image: "/dashboard.jpg"
-    }
-  ];
+  {
+    id: 1,
+    title: "Kaihma – Commerce OS for Africa",
+    description:
+      "A scalable frontend for an eCommerce Operating System tailored for African entrepreneurs. Includes store builder, wallet, escrow, and delivery systems.",
+    tags: ["Next.js", "Tailwind CSS", "Supabase", "Framer Motion"],
+    githubUrl: "#",
+    liveUrl: "https://kaihma.vercel.app/",
+    image: "#",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "Meu Deliver – Logistics Platform",
+    description:
+      "Delivery and logistics platform MVP with user dashboard, order tracking, and vendor features. Built for performance and scalability.",
+    tags: ["Next.js", "Tailwind CSS", "Express", "MongoDB"],
+    githubUrl: "#",
+    liveUrl: "#",
+    image: "#",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "59Minutes Prints – Print-On-Demand App",
+    description:
+      "Full-featured print-on-demand platform with vendor/client dashboards, Firebase Auth, and order management system.",
+    tags: ["Next.js", "Firebase", "Node.js", "MongoDB"],
+    githubUrl: "#",
+    liveUrl: "#",
+    image: "#",
+  },
+  {
+    id: 4,
+    title: "Accessivo – Fintech Learning App",
+    description:
+      "Frontend intern contribution to a fintech education platform. Designed responsive UI for user dashboards and onboarding.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+    githubUrl: "#",
+    liveUrl: "#",
+    image: "#",
+  },
+  {
+    id: 5,
+    title: "Developer Portfolio Website",
+    description:
+      "Personal portfolio website showcasing professional work, interactive timeline, and projects. Includes dark mode and animation.",
+    tags: ["Next.js", "Framer Motion", "Tailwind"],
+    githubUrl: "#",
+    liveUrl: "#",
+    image: "#",
+  },
+ 
+];
+
 
   return (
     <div className="min-h-screen bg-black text-white py-20 px-6">

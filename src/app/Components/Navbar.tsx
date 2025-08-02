@@ -22,7 +22,7 @@ const navItems = [
   { href: '/Pages/Skills', label: 'Skills', icon: Code },
   { href: '/Pages/Project', label: 'Projects', icon: FolderOpen },
   { href: '/Pages/Resume', label: 'Resume', icon: FileText },
-  { href: '/Pages/Certificate', label: 'Certificate', icon: Award },
+  // { href: '/Pages/Certificate', label: 'Certificate', icon: Award },
   { href: '/Pages/Contact', label: 'Contact', icon: Mail },
 ];
 

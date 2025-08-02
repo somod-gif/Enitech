@@ -43,8 +43,8 @@ const SkillsPage = () => {
   const skillCategories = [
     { id: 'frontend', label: 'Frontend', icon: <Code2 className="w-5 h-5" /> },
     { id: 'backend', label: 'Backend', icon: <Server className="w-5 h-5" /> },
-    { id: 'mobile', label: 'Mobile', icon: <Smartphone className="w-5 h-5" /> },
-    { id: 'design', label: 'Design', icon: <Palette className="w-5 h-5" /> }
+    // { id: 'mobile', label: 'Mobile', icon: <Smartphone className="w-5 h-5" /> },
+    // { id: 'design', label: 'Design', icon: <Palette className="w-5 h-5" /> }
   ];
 
   const skillsData: { [key: string]: Skill[] } = {
@@ -54,7 +54,11 @@ const SkillsPage = () => {
       { name: 'TypeScript', icon: <Type className="w-6 h-6 text-blue-600" />, color: 'from-blue-500 to-blue-700' },
       { name: 'JavaScript', icon: <Code2 className="w-6 h-6 text-yellow-400" />, color: 'from-yellow-400 to-yellow-600' },
       { name: 'HTML5', icon: <Terminal className="w-6 h-6 text-orange-500" />, color: 'from-orange-400 to-red-500' },
-      { name: 'CSS3/Tailwind', icon: <Palette className="w-6 h-6 text-cyan-400" />, color: 'from-cyan-400 to-blue-500' }
+      { name: 'CSS3', icon: <Palette className="w-6 h-6 text-cyan-400" />, color: 'from-cyan-400 to-blue-500' },
+      { name: 'TailwindCSS', icon: <Palette className="w-6 h-6 text-cyan-400" />, color: 'from-cyan-400 to-blue-500' },
+      { name: 'Bootstrap', icon: <Palette className="w-6 h-6 text-cyan-400" />, color: 'from-cyan-400 to-blue-500' },
+      { name: 'Material UI', icon: <Palette className="w-6 h-6 text-cyan-400" />, color: 'from-cyan-400 to-blue-500' },
+
     ],
     backend: [
       { name: 'Node.js', icon: <Terminal className="w-6 h-6 text-green-500" />, color: 'from-green-400 to-green-600' },
@@ -66,13 +70,13 @@ const SkillsPage = () => {
       { name: 'MySQL', icon: <Database className="w-6 h-6 text-blue-400" />, color: 'from-blue-400 to-blue-600' },
       { name: 'MongoDB', icon: <Database className="w-6 h-6 text-green-400" />, color: 'from-green-400 to-emerald-600' }
     ],
-    mobile: [
-      { name: 'React Native', icon: <Smartphone className="w-6 h-6 text-blue-400" />, color: 'from-blue-400 to-purple-500' },
-      { name: 'Expo', icon: <Smartphone className="w-6 h-6 text-gray-300" />, color: 'from-gray-500 to-gray-700' },
-      { name: 'Mobile UI', icon: <Palette className="w-6 h-6 text-pink-400" />, color: 'from-pink-400 to-purple-500' },
-      { name: 'Firebase', icon: <Globe className="w-6 h-6 text-yellow-500" />, color: 'from-yellow-400 to-yellow-600' },
-      { name: 'Supabase', icon: <Smartphone className="w-6 h-6 text-blue-500" />, color: 'from-blue-500 to-blue-700' }
-    ],
+    // mobile: [
+    //   { name: 'React Native', icon: <Smartphone className="w-6 h-6 text-blue-400" />, color: 'from-blue-400 to-purple-500' },
+    //   { name: 'Expo', icon: <Smartphone className="w-6 h-6 text-gray-300" />, color: 'from-gray-500 to-gray-700' },
+    //   { name: 'Mobile UI', icon: <Palette className="w-6 h-6 text-pink-400" />, color: 'from-pink-400 to-purple-500' },
+    //   { name: 'Firebase', icon: <Globe className="w-6 h-6 text-yellow-500" />, color: 'from-yellow-400 to-yellow-600' },
+    //   { name: 'Supabase', icon: <Smartphone className="w-6 h-6 text-blue-500" />, color: 'from-blue-500 to-blue-700' }
+    // ],
     
   };
 

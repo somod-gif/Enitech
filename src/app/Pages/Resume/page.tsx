@@ -6,10 +6,10 @@ const ResumePage = () => {
   const personalInfo = {
     name: "Badmus Eniola",
     title: "Full Stack Developer",
-    email: "badmus.eniola@enitech.dev",
-    phone: "+234 XXX XXX XXXX",
-    location: "Ibadan, Nigeria",
-    about: "Passionate full-stack developer with 5+ years of experience building modern web applications. Specialized in JavaScript technologies across the whole stack with a focus on performance and user experience."
+    email: "eniolabadmus351@gmail.com",
+    phone: "+234 8146438621",
+    location: " Nigeria",
+    about: "Passionate full-stack developer with 3+ years of experience building modern web applications. Specialized in JavaScript technologies across the whole stack with a focus on performance and user experience."
   };
 
   const skills = [
@@ -24,59 +24,69 @@ const ResumePage = () => {
   ];
 
   const experience = [
-    {
-      role: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      period: "2021 - Present",
-      description: [
-        "Led development of e-commerce platform serving 50k+ monthly users",
-        "Implemented CI/CD pipeline reducing deployment time by 70%",
-        "Mentored junior developers and conducted code reviews"
-      ]
-    },
-    {
-      role: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2019 - 2021",
-      description: [
-        "Built responsive UIs for 15+ client projects",
-        "Optimized web performance achieving 90+ Lighthouse scores",
-        "Collaborated with designers to implement design systems"
-      ]
-    },
-    {
-      role: "Junior Developer",
-      company: "Startup Ventures",
-      period: "2017 - 2019",
-      description: [
-        "Developed RESTful APIs for mobile applications",
-        "Implemented authentication systems",
-        "Fixed bugs and improved existing codebase"
-      ]
-    }
-  ];
+  {
+    role: "Frontend Engineer",
+    company: "Kaihma (Commerce OS Startup)",
+    period: "July 2025 – Present",
+    description: [
+      "Building the scalable frontend of a commerce OS for African entrepreneurs using Next.js and Tailwind CSS",
+      "Collaborated with CTO to translate product vision into UI components",
+      "Designed and implemented wallet system, escrow flow, and delivery infrastructure UI"
+    ]
+  },
+  {
+    role: "Frontend Engineer Intern",
+    company: "Accessivo",
+    period: "June 2025 – Present",
+    description: [
+      "Contributed to fintech dashboard design and development for youth-focused financial literacy platform",
+      "Implemented responsive, reusable components using Tailwind and React",
+      "Collaborated on UI/UX improvement tasks and design iterations"
+    ]
+  },
+  {
+    role: "Full Stack Developer",
+    company: "Meu Deliver",
+    period: "June 2025 – Present",
+    description: [
+      "Developed MVP of logistics and delivery platform using Next.js, Express.js, and MongoDB",
+      "Integrated user and vendor dashboards with authentication flows",
+      "Worked closely with product team to deliver weekly feature updates"
+    ]
+  },
+  {
+    role: "Full Stack Developer",
+    company: "59Minutes Prints",
+    period: "Jan 2025 – Present",
+    description: [
+      "Built print-on-demand web app with client/vendor/admin portals using Next.js and Firebase",
+      "Implemented Firebase Auth and MongoDB backend integration for real-time operations",
+      "Handled full project lifecycle from design to deployment"
+    ]
+  },
+
+];
+
 
   const education = [
-    {
-      degree: "B.Sc Computer Science",
-      institution: "University of Ibadan",
-      period: "2013 - 2017",
-      description: "Graduated with First Class Honors"
-    },
-    {
-      degree: "AWS Certified Developer",
-      institution: "Amazon Web Services",
-      period: "2020",
-      description: "Specialization in cloud architecture"
-    }
-  ];
+  {
+    degree: "B.Tech in Information Technology",
+    institution: "Federal University of Technology, Minna (FUTMINNA)",
+    period: "2022 - Present",
+    description: "Pursuing a Bachelor's degree with a concentration in Software Engineering, focusing on web development, backend systems, and real-world applications."
+  }
+];
 
   const achievements = [
-    "Won 1st place at National Hackathon 2020",
-    "Open source contributor with 500+ GitHub stars",
-    "Speaker at React Conference 2022",
-    "Published technical articles with 50k+ views"
-  ];
+  "Accepted as Frontend Engineer Intern at Accessivo",
+  "Building scalable Commerce OS frontend at Kaihma Startup",
+  "Successfully built and launched MVPs for Meu Deliver and 59Minutes Prints",
+  "Designed and implemented real-world dashboards using Next.js and Tailwind CSS",
+  "Learning and contributing to Java Spring Boot projects for self-development",
+  "Published technical articles on Software Development and App for Business",
+  "Built multiple freelance and personal projects with production-ready UIs"
+];
+
 
   return (
     <div className="min-h-screen bg-black text-white py-20 px-6">

@@ -125,7 +125,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs text-black font-bold">Email</p>
-                    <p className="text-black font-bold text-sm group-hover:text-cyan-300 transition-colors duration-300">badmus.eniola@enitech.dev</p>
+                    <p className="text-black font-bold text-sm group-hover:text-cyan-300 transition-colors duration-300">eniolabadmus351@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs text-black font-bold">Location</p>
-                    <p className="text-black font-bold text-sm group-hover:text-green-300 transition-colors duration-300">Ibadan, Nigeria</p>
+                    <p className="text-black font-bold text-sm group-hover:text-green-300 transition-colors duration-300">Nigeria</p>
                   </div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs text-black font-bold">Phone</p>
-                    <p className="text-black font-bold text-sm group-hover:text-purple-300 transition-colors duration-300">+234 XXX XXX XXXX</p>
+                    <p className="text-black font-bold text-sm group-hover:text-purple-300 transition-colors duration-300">+234 8146438621</p>
                   </div>
                 </div>
               </div>
